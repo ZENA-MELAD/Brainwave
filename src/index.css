@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@theme{
+    --font-rubik:"Rubik",sans-serif;
+    --color-primary:#F4F7FA;
+}
