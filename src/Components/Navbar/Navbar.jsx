@@ -7,7 +7,7 @@ const Navbar = () => {
   const links = ["demos", "pages", "support", "contact"];
 
   return (
-    <nav className="relative px-5 py-2 md:flex md:justify-center md:items-center">
+    <nav className="relative px-3 py-1 md:w-full md:flex md:justify-center md:items-center">
       {/* اللوغو + الهامبرغر */}
       <div className="flex items-center justify-between md:mr-16">
         <h1 className="font-rubik font-bold text-xl md:mx-auto">
@@ -21,33 +21,31 @@ const Navbar = () => {
       {/* قائمة الروابط + الزر */}
       <div
         className={`
-          flex flex-col items-center
+          ${isOpen ? "flex" : "hidden"}
+          flex-col items-center
           overflow-hidden transition-all duration-500 ease-in-out
-          ${
-            isOpen
-              ? "max-h-96 opacity-100 mt-2"
-              : "max-h-0 opacity-0 md:opacity-100 md:max-h-full"
-          }
-          md:flex md:flex-row md:justify-between md:w-3/4 md:items-center
+          ${isOpen ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"}
+          md:flex md:flex-row md:justify-between md:items-center md:w-2/3 md:max-h-full md:opacity-100 md:mt-0
         `}
       >
-        <ul className="flex flex-col items-center md:flex-row md:items-center md:space-x-4 w-full md:w-auto">
+        <ul className="flex flex-col items-center md:flex-row md:items-center md:space-x-10  w-full md:w-auto">
           {links.map((item) => (
-            <li key={item} className="capitalize font-medium hover:text-indigo-700 py-2 md:py-0 text-center">
+            <li
+              key={item}
+              className="capitalize font-medium hover:text-indigo-700 py-2 md:py-0 text-center"
+            >
               <a href="#">{item}</a>
             </li>
           ))}
         </ul>
+
         {/* زر Get Started */}
         <div
           className={`
             mt-2
             overflow-hidden transition-all duration-500 ease-in-out
-            ${
-              isOpen
-                ? "max-h-20 opacity-100"
-                : "max-h-0 opacity-0 md:opacity-100 md:max-h-full md:mt-0"
-            }
+            ${isOpen ? "max-h-20 opacity-100" : "max-h-0 opacity-0"}
+            md:max-h-full md:opacity-100 md:mt-0
           `}
         >
           <GetStartedButton />

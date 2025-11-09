@@ -2,4 +2,6 @@
 @theme{
     --font-rubik:"Rubik",sans-serif;
     --color-primary:#F4F7FA;
+    --color-customRed:#F64B4B;
+    --breakpoint-custom:668px;
 }
