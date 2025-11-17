@@ -32,7 +32,7 @@ const Navbar = () => {
           {links.map((item) => (
             <li
               key={item}
-              className="capitalize font-medium hover:text-indigo-700 py-2 md:py-0 text-center"
+              className="capitalize font-medium font-questrial hover:text-indigo-700 py-2 md:py-0 text-center"
             >
               <a href="#">{item}</a>
             </li>

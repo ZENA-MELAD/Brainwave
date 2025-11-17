@@ -9,15 +9,15 @@ const Hero = () => {
       <Navbar />
       <div className=" flex flex-col justify-center items-center mt-12 px-3 custom:w-full custom:flex   custom:flex-row custom:justify-center custom:items-center  ">
         <div className="  custom:w-2/5">
-          <h2 className=" uppercase text-customRed font-bold text-xs tracking-wide">
+          <h2 className=" uppercase text-customRed font-bold text-sm  font-questrial">
             lets shift your business
           </h2>
-          <h2 className=" font-bold text-3xl tracking-wide mt-3 lg:text-4xl">
+          <h2 className=" font-bold text-3xl font-questrial mt-3 lg:text-4xl">
             Shift your business
             <br />
             fast with Shade Pro.
           </h2>
-          <p className="mt-3 text-gray-400  text-sm tracking-wide  lg:text-base">
+          <p className="mt-3 text-gray-400  text-sm font-questrial  lg:text-base lg:w-2/3">
             With lost of unique blocks, you can easily build a page without
             coding.Build your next consultancy website within few minutes.
           </p>
