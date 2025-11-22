@@ -4,12 +4,12 @@ import LearnMore from "../LearnMore/LearnMore";
 const Card = () => {
   const colors = ["bg-green-400", "bg-indigo-800", "bg-customRed"];
   return (
-    <div className="w-full relative z-30 flex flex-col justify-center items-center  sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-2.5 md:gap-4 lg:gap-6">
+    <div className="w-full relative z-30 flex flex-col justify-center items-center  sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-2.5 md:gap-4 lg:gap-8">
       {DataServices.map((item) => (
         <div
           className={`${
             colors[item.id]
-          } rounded-lg max-w-[70vw]  h-80 px-10 mb-3.5  flex flex-col justify-center items-center  sm:max-w-[30vw] sm:px-2 md:max-w-[28vw] lg:max-w-[24vw] xl:max-w-[18vw]`}
+          } rounded-lg max-w-[70vw]  h-80 px-10 mb-3.5  flex flex-col justify-center items-center  sm:max-w-[28vw] sm:px-2 md:max-w-[26vw] lg:max-w-[24vw] xl:max-w-[22vw]`}
           key={item.id}
         >
           <img src={item.image} />

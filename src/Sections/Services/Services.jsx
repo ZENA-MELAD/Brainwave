@@ -5,17 +5,17 @@ import Img2 from "../../assets/Images/ServicesSec/Oval.png";
 import { FaStar } from "react-icons/fa6";
 const Services = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center mt-20">
+    <div className="w-full flex flex-col justify-center items-center px-2.5 mt-20">
       <h2 className=" uppercase text-customRed font-bold text-sm font-questrial">
         our services
       </h2>
-      <h2 className=" text-xl mt-6 text-center font-bold font-questrial md:text-3xl">
+      <h2 className=" text-xl mt-6 text-center font-bold font-questrial md:text-2xl">
         We provide great services for our <br /> customers based on needs
       </h2>
       <div className="w-full mt-10 relative ">
         <Card />
         <div className=" relative z-10 ">
-          <img src={Img} className=" absolute -bottom-3 right-6 sm:right-0  md:right-4 lg:right-22  xl:right-64 " />
+          <img src={Img} className=" absolute -bottom-3 right-2 sm:right-0  md:right-4 lg:right-22  xl:right-64 " />
         </div>
         </div>
         <div className=" w-full mt-10  flex flex-col justify-center items-center  sm:flex sm:flex-row sm:justify-center sm:items-center sm:mt-16">

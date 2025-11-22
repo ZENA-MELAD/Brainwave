@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="bg-primary px-2.5 py-3">
       <Navbar />
       <div className=" flex flex-col justify-center items-center mt-12 px-3 custom:w-full custom:flex   custom:flex-row custom:justify-center custom:items-center  ">
-        <div className="  custom:w-2/5">
+        <div className="  custom:w-1/2">
           <h2 className=" uppercase text-customRed font-bold text-sm  font-questrial">
             lets shift your business
           </h2>
