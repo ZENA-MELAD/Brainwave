@@ -1,4 +1,5 @@
 import "./App.css";
+import ChooseUs from "./Sections/ChooseUs/ChooseUs";
 import Hero from "./Sections/Hero/Hero";
 import OurStory from "./Sections/OurStory/OurStory";
 import Services from "./Sections/Services/Services";
@@ -9,6 +10,7 @@ const App = () => {
       <Hero />
       <Services/>
       <OurStory/>
+      <ChooseUs/>
     </>
   );
 };

@@ -8,7 +8,7 @@ const OurStory = () => {
   return (
     <div className="w-full px-3 flex flex-col justify-center items-center mt-16 sm:px-6 xl:px-10">
       <div className=" flex flex-col justify-center items-center sm:items-start sm:w-10/12  xl:w-3/4">
-        <h2 className="  text-base  text-customRed font-questrial font-bold uppercase sm:text-sm">
+        <h2 className="  text-base  text-customRed font-questrial tracking-wider font-bold uppercase sm:text-sm">
           our story
         </h2>
         <h2 className=" mt-4 font-bold font-questrial text-lg  text-center sm:text-2xl sm:w-3/4 sm:text-left md:w-2/3">
@@ -30,7 +30,7 @@ const OurStory = () => {
               />
               <img src={Img2} alt="image 2" className="" />
             </div>
-            <div className=" relative top-10 ml-4 sm:ml-7 sm:-top-4 md:-top-6 lg:-top-8">
+            <div className=" relative top-10 ml-4 sm:ml-7 sm:-top-4 md:-top-6 lg:-top-14 lg:ml-16">
               <img src={Img3} alt="image 3" />
             </div>
           </div>

@@ -9,7 +9,7 @@ const Hero = () => {
       <Navbar />
       <div className=" flex flex-col justify-center items-center mt-12 px-3 custom:w-full custom:flex   custom:flex-row custom:justify-center custom:items-center  ">
         <div className="  custom:w-1/2">
-          <h2 className=" uppercase text-customRed font-bold text-sm  font-questrial">
+          <h2 className=" uppercase text-customRed font-bold text-sm  font-questrial tracking-wider">
             lets shift your business
           </h2>
           <h2 className=" font-bold text-3xl font-questrial mt-3 lg:text-4xl">
