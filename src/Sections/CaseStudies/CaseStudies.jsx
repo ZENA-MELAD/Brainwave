@@ -4,6 +4,7 @@ import Img1 from "../../assets/Images/CaseStudies/Img4.png";
 import Img2 from "../../assets/Images/CaseStudies/Img2.png";
 import Img3 from "../../assets/Images/CaseStudies/Img.png";
 import Img4 from "../../assets/Images/CaseStudies/Img3.png";
+import CaseStudiesCard from "../../Components/CaseStudiesCard/CaseStudiesCard";
 const CaseStudies = () => {
   return (
     <div className="w-full mx-auto flex flex-col justify-center items-center py-10">
@@ -15,45 +16,30 @@ const CaseStudies = () => {
         the best in the business
       </h2>
       <div className="mt-10 relative">
-        <div className=" flex flex-col gap-8 md:flex md:flex-row md:justify-start md:items-start md:gap-10 mb-8">
-          <div className="">
-            <img src={Img1} className="max-w-full h-auto object-cover mb-4" />
-            <h3 className="capitalize font-questrial text-center text-slate-500 md:text-left ">
-              graphic design
-            </h3>
-            <p className="capitalize font-questrial font-black text-center md:text-left">
-              aure branding design
-            </p>
-          </div>
-          <div className="">
-            <img src={Img2} className="max-w-full h-auto object-cover mb-4" />
-            <h3 className="capitalize font-questrial text-center text-slate-500 md:text-left ">
-              graphic design
-            </h3>
-            <p className="capitalize font-questrial font-black text-center md:text-left">
-              AB.S snack packaging
-            </p>
-          </div>
+        <div className=" flex flex-col gap-8 md:flex md:flex-row md:justify-start md:items-start md:gap-8 mb-8">
+          <CaseStudiesCard
+            image={Img1}
+            title="graphic design"
+            des=" aure branding design"
+          />
+          <CaseStudiesCard
+            image={Img2}
+            title="graphic design"
+            des=" AB.S snack packaging"
+          />
         </div>
         <div className=" flex flex-col gap-8 md:flex md:flex-row md:justify-start md:items-start md:gap-8">
-          <div className="">
-            <img src={Img3} className="max-w-full h-auto object-cover mb-4" />
-            <h3 className="capitalize font-questrial text-center text-slate-500 md:text-left ">
-              web development
-            </h3>
-            <p className="capitalize font-questrial font-black text-center md:text-left">
-              gradient website development
-            </p>
-          </div>
-          <div className=" md:absolute md:top-72 right-0">
-            <img src={Img4} className="max-w-full h-auto object-cover mb-4" />
-            <h3 className="capitalize font-questrial text-center text-slate-500 md:text-left ">
-              content writing
-            </h3>
-            <p className="capitalize font-questrial font-black text-center md:text-left">
-              magazine content writing
-            </p>
-          </div>
+          <CaseStudiesCard
+            image={Img3}
+            title="web development"
+            des="gradient website development"
+          />
+          <CaseStudiesCard
+            image={Img4}
+            title="content writing"
+            des="magazine content writing"
+            position="md:absolute md:top-72 md:right-0"
+          />
         </div>
       </div>
       <ActionButton
