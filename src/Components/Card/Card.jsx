@@ -1,6 +1,7 @@
 import React from "react";
 import DataServices from "../../assets/Data/DataServices";
-import LearnMore from "../LearnMore/LearnMore";
+import ActionButton from "../ActionButton/ActionButton";
+
 const Card = () => {
   const colors = ["bg-green-400", "bg-indigo-800", "bg-customRed"];
   return (
@@ -22,7 +23,7 @@ const Card = () => {
           <p className="text-center text-white font-questrial text-xs capitalize mt-0.5 tracking-wider opacity-65">
             {item.des}
           </p>
-          <LearnMore />
+          <ActionButton label="learn more"  color="text-gray-50" hover="hover:text-gray-200"/>
         </div>
       ))}
     </div>

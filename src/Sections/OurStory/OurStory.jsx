@@ -34,7 +34,7 @@ const OurStory = () => {
               <img src={Img3} alt="image 3" />
             </div>
           </div>
-          <div className="flex justify-center items-center mt-6  w-full  sm:mt-0   sm:w-10/12">
+          <div className="flex justify-center items-center   mt-6  w-full  sm:mt-0 sm:w-10/12 lg:w-3/5 lg:text-balance lg:self-start lg:ml-14">
             <p className=" font-questrial text-slate-600 relative top-10 sm:top-0">
               we share common trends and strategies for improving your rental
               income and making sure you stay in high demand.with lots of unique
