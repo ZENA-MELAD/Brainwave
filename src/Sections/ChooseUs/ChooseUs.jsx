@@ -10,7 +10,7 @@ const ChooseUs = () => {
     "bg-slate-200/60",
   ];
   return (
-    <div className="flex flex-col justify-center items-center bg-primary px-0.5 py-16 relative">
+    <div className="w-full flex flex-col justify-center items-center bg-primary px-0.5 py-16 relative">
       <div className="hidden sm:block absolute top-[20%] left-0 z-10">
         <img src={Img} alt="imge one" />
       </div>

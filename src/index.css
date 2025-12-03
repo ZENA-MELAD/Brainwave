@@ -1,8 +1,17 @@
 @import "tailwindcss";
-@theme{
-    --font-rubik:"Rubik",sans-serif;
-    --font-questrial:"Questrial" ,sans-serif;
-    --color-primary:#F4F7FA;
-    --color-customRed:#F64B4B;
-    --breakpoint-custom:668px;
+@theme {
+  --font-rubik: "Rubik", sans-serif;
+  --font-questrial: "Questrial", sans-serif;
+  --color-primary: #f4f7fa;
+  --color-customRed: #f64b4b;
+  --breakpoint-custom: 668px;
+}
+.testimonial-swiper .swiper-pagination {
+  @apply mt-1 static;
+}
+.testimonial-swiper .swiper-pagination-bullet {
+  @apply bg-white opacity-40 w-1.5 h-1.5 rounded-full transition-all sm:w-2 sm:h-2;
+}
+.testimonial-swiper .swiper-pagination-bullet-active {
+  @apply bg-green-400 opacity-100 w-2 h-2 sm:w-2.5 sm:h-2.5;
 }

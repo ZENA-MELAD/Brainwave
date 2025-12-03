@@ -6,20 +6,19 @@ import Img4 from "../../assets/Images/CaseStudies/Img3.png";
 const CaseStudiesCard = (props) => {
   return (
     <>
-        <div className={`${props.position}`}>
-          <img src={props.image} className="max-w-full h-auto object-cover mb-4" />
-          <h3 className="capitalize font-questrial text-center text-slate-500 md:text-left ">
-           {props.title}
-          </h3>
-          <p className="capitalize font-questrial font-black text-center md:text-left">
+      <div className={`${props.position}`}>
+        <img
+          src={props.image}
+          className="max-w-full h-auto object-cover mb-4"
+        />
+        <h3 className="capitalize font-questrial text-center text-slate-500 md:text-left ">
+          {props.title}
+        </h3>
+        <p className="capitalize font-questrial font-black text-center md:text-left">
           {props.des}
-          </p>
-        </div>
-       
-    
-     
+        </p>
+      </div>
     </>
   );
 };
-
 export default CaseStudiesCard;
