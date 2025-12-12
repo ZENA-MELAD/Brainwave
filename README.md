@@ -4,6 +4,14 @@ It is an interactive landing page built using React+ Vite to showcase a service 
 -[React] To build the interactive interface
 -[Vite] To run the project quickly during development
 -[TailwindCss] For a fast and responsive design
+## 🧰 Libraries used
+-react
+-react-dom
+-tailwindcss
+-hamburger-react
+-react-icons
+-swiper
+-@tailwindcss/vite
 ## 📂 Project Structure
 Example/
 ├── public/
