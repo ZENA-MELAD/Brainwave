@@ -2,6 +2,7 @@ import React from "react";
 import Img from "../../assets/Images/ChooseUs/Group 161.png";
 import Data from "../../assets/Data/DataChooseUs";
 import GetStartedButton from "../../Components/GetStartedButton/GetStartedButton";
+import NextProject from "../../Components/NextProject/NextProject";
 const ChooseUs = () => {
   const colors = [
     "bg-indigo-100/60",
@@ -53,21 +54,8 @@ const ChooseUs = () => {
           ))}
         </div>
       </div>
-      <hr className=" w-10/12  h-1.5 text-gray-200 mt-20 lg:w-3/4" />
-      <div className=" w-1/2 flex flex-col justify-center items-center text-center  mt-8 md:flex md:flex-row md:items-start  md:w-full md:text-left ">
-        <div className="md:w-3/4">
-          <h3 className="font-bold font-questrial md:text-xl">
-            Ready to launch your next project?
-          </h3>
-          <p className="text-xs mt-4 font-questrial text-slate-600 sm:text-sm md:w-3/4 lg:text-base lg:w-1/2 text-balance">
-            with lots of unique blocks,you can easily build a page without
-            coding.build your next landing page.
-          </p>
-        </div>
-        <div className="mt-5 md:mt-0">
-          <GetStartedButton />
-        </div>
-      </div>
+      <hr className=" w-10/12  h-1.5 text-gray-200 my-16 lg:w-3/4" />
+     <NextProject color="text-slate-600" font="font-bold"/>
     </div>
   );
 };
